@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ProfeMatematica.Infrastructure;
 
@@ -11,9 +12,11 @@ using ProfeMatematica.Infrastructure;
 namespace ProfeMatematica.Infrastructure.Migrations
 {
     [DbContext(typeof(ProfeMatematicaDbContext))]
-    partial class ProfeMatematicaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260226033513_AddEmailAndCursoToStudent")]
+    partial class AddEmailAndCursoToStudent
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
