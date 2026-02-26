@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ProfeMatematica.Api/ProfeMatematica.Api.csproj" />
+  <Project Path="ProfeMatematica.Application/ProfeMatematica.Application.csproj" />
+  <Project Path="ProfeMatematica.Domain/ProfeMatematica.Domain.csproj" />
+  <Project Path="ProfeMatematica.Infrastructure/ProfeMatematica.Infrastructure.csproj" />
+</Solution>
